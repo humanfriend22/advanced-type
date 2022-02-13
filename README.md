@@ -11,7 +11,7 @@ npm install advanced-type
 
 #### Browser
 ```
-<script src="https://cdn.jsdelivr.net/npm/advanced-type@1.0.1/browser.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/advanced-type@1.1.0/browser.js"></script>
 ```
 
 ### Usage
