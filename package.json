@@ -1,0 +1,19 @@
+{
+    "name": "advanced-type",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/humanfriend22/advanced-type.git"
+    },
+    "author": "humanfriend22 <humanfriend22@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/humanfriend22/advanced-type/issues"
+    },
+    "homepage": "https://github.com/humanfriend22/advanced-type#readme"
+}
