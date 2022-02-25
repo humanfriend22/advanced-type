@@ -9,9 +9,9 @@ let type = (param = undefined) => {
         return typeof param === 'number' ? param * 0 !== 0 ? 'NaN' : 'number' : Object.prototype.toString.call(param).replace('[object ').replace('undefined', '').slice(0, -1).toLowerCase();
     }
 }
-type.multiple = (arr, type = 'any') => {
+type.multiple = (arr, t = 'any') => {
     if (module.exports(arr) !== 'array') return false;
     let output = [];
-    for (const item of arr) output.push(type === 'any' ? type(item) : type(item) === type);
+    for (const item of arr) output.push(type === 'any' ? type(item) : type(item) === t);
     return output;
 }

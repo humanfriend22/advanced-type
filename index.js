@@ -12,6 +12,6 @@ module.exports = (param = undefined) => {
 module.exports.multiple = (arr, type = 'any') => {
     if (module.exports(arr) !== 'array') return false;
     let output = [];
-    for (const item of arr) output.push(type === 'any' ? type(item) : type(item) === type);
+    for (const item of arr) output.push(type === 'any' ? module.exports(item) : module.exports(item) === type);
     return output;
 }
